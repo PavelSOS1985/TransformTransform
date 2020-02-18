@@ -25,6 +25,7 @@ public class Level1 {
                 try {
                     B.addLast(Collections.max(A.subList(j, k + 1)));
                 } catch (Exception e) {
+
                 }
             }
         }
