@@ -20,7 +20,7 @@ public class Level1 {
         LinkedList<Integer> B = new LinkedList<>();
 
         for (int i = 0; i < N; i++) {
-            for (int j = 0; j < N - i - 1; j++) {
+            for (int j = 0; j < N - (i - 1); j++) {
                 int k = i + j;
                 try {
                     B.addLast(Collections.max(A.subList(j, k + 1)));
